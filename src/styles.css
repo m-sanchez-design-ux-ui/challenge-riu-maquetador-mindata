@@ -3,7 +3,27 @@
 
 /*Define Theme*/
 @theme {
+  /* Typography */
   --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand Functional Colors */
+  --color-brand-icon: #1C274C;     /* Icons with associated labels */
+  --color-brand-btn: #E4002B;      /* Main call-to-action (CTA) button */
+  
+  /* Typography Colors */
+  --color-text-main: #343A40;      /* General page body text */
+  --color-text-over-img: #A6A2A2;  /* Text displayed over gray backgrounds or images */
+  
+  /* Surfaces and Backgrounds */
+  --color-section-bg: #F4F4F5;     /* Background for the first page block/section */
+  --color-img-placeholder: #BDBDBD; /* Background for divs acting as image placeholders */
+  
+  /* Fade to black overlay */
+  --bg-gradient-card: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); 
+  
+  /* Base Colors */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
 }
 
 /*Local fonts in the proyect*/
@@ -78,5 +98,6 @@
     font-family: var(--font-inter);
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
+    color: var(--color-text-main);
   }
 }
