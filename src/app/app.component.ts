@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SectionOneComponent } from './components/section-one/section-one.component';
+import { SectionOneComponent } from './components/sections/one/section-one.component';
 
 @Component({
   selector: 'md-root',
