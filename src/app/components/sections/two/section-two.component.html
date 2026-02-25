@@ -1,1 +1,60 @@
-<p>section-two works!</p>
+<section class="bg-white flex flex-row justify-center py-8 px-5 xs:py-8 xs:px-5 md:py-12 md:px-8 desktop:py-24 desktop:px-8 min-h-fit xs:min-h-587.5 md:min-h-315 desktop:min-h-[1532.25px]">
+    <!--Container Inner-->
+    <div class="w-full desktop:max-w-385.5 desktop:min-h-[1340.25px]">
+        <!--Title Section-->
+        <header class="space-y-6 mb-12">
+            <!--Title-->
+            <h1 class="font-bold text-3xl xs:text-3xl md:text-5xl desktop:text-5xl leading-8 xs:leading-8 md:leading-14.5 desktop:leading-14.5 tracking-normal text-black">Lorem ipsum dolor sit</h1>
+            <div class="flex flex-col md:flex-row desktop:flex-row md:justify-between md:items-center desktop:justify-between desktop:items-center gap-2.5">
+                <!--Text-->
+                <p class="font-inter font-normal text-lg xs:text-lg md:text-lg desktop:text-lg leading-6.75 xs:leading-6.75 md:leading-6.75 desktop:leading-6.75 tracking-normal text-black">Lorem ipsum dolor sit</p>
+                <!--Search-->
+                <form role="search" class="relative w-full xs:w-full md:w-75 desktop:w-75">
+                    <label for="search-input" class="sr-only">Search Content</label>
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <img src="image/search.svg" alt="Search Icon" class="size-4">
+                    </div>
+                    <input 
+                        type="search" 
+                        id="search-input"
+                        placeholder=" " 
+                        class="w-full h-10 bg-section-bg rounded-lg pl-12 pr-4 text-base text-text-main focus:outline-none focus:ring-2 focus:ring-black/50 transition-all border-none"
+                    >
+                </form>
+            </div>
+        </header>
+        <!--Grid Container-->
+        <ul class="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 desktop:grid-cols-3 gap-8">
+            <!--Child 01-->
+            <li class="list-none hidden xs:hidden md:hidden desktop:block">
+                <!--Card-->
+                <card-two [caseType]="1"/>
+            </li>
+            <!--Child 02-->
+            <li class="list-none hidden xs:hidden md:block desktop:block">
+                <!--Card-->
+                <card-two [caseType]="2"/>
+            </li>
+            <!--Child 03-->
+            <li class="list-none">
+                <!--Card-->
+                <card-two [caseType]="1"/>
+            </li>
+            <!--Child 04-->
+            <li class="list-none">
+                <!--Card-->
+                <card-two [caseType]="1"/>
+            </li>
+            <!--Child 05-->
+            <li class="list-none">
+                <!--Card-->
+                <card-two [caseType]="1"/>
+            </li>
+            <!--Child 06-->
+            <li class="list-none block xs:block md:hidden desktop:block">
+                <!--Card-->
+                <card-two [caseType]="1"/>
+            </li>
+        </ul>
+    </div>
+</section>
