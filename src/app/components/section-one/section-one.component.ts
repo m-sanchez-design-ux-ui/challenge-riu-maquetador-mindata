@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { CalendarIconComponent } from '../icons/calendar-icon/calendar-icon.component';
 
 @Component({
   selector: 'section-one',
-  imports: [CalendarIconComponent],
+  imports: [],
   templateUrl: './section-one.component.html',
   styleUrl: './section-one.component.css'
 })

@@ -31,6 +31,11 @@
   /* Base Colors */
   --color-white: #FFFFFF;
   --color-black: #000000;
+
+  /* Custom Breakpoints as Figma file */
+  --breakpoint-xs: 460px;   /* Customize Mobile */
+  --breakpoint-md: 768px;   /* Tablet (default) */
+  --breakpoint-desktop: 1875px; /* Customize Desktop XL */
 }
 
 /*Local fonts in the proyect Inter*/
