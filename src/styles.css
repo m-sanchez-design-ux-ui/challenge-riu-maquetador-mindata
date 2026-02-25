@@ -19,7 +19,7 @@
   --color-img-placeholder: #BDBDBD; /* Background for divs acting as image placeholders */
   
   /* Fade to black overlay */
-  --bg-gradient-card: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); 
+  --background-image-gradient-card: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); 
 
   /*Shadows*/
   --shadow-card: 0 2px 4px 0 rgba(0, 0, 0, 0.2);

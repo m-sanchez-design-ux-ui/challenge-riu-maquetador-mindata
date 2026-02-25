@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'md-card-three',
+  selector: 'card-three',
   imports: [],
   templateUrl: './card-three.component.html',
   styleUrl: './card-three.component.css'
